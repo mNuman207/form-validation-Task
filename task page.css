@@ -1,0 +1,83 @@
+.text
+{
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+.Container{
+    height: 565px;
+    width:455px;
+    align-items: center;
+    margin-top: 50px;
+    margin-inline: 432px;
+    justify-content: center;
+    align-self: center;
+    text-align:left;
+    background-color: rgb(116, 165, 173);
+    border: 5px;
+    border-radius: 8px;
+}
+.form
+{
+    font-size: 22;
+    font-weight: bold;
+    margin: 50px 26px 33px 53px ;
+}
+.form input
+{
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+#name
+{
+    margin-left: 51px;
+    height: 30px;
+    width: 51%;
+    border: 5px;
+    border-radius: 8px;
+}
+#DoB
+{
+    margin-left: 42px;
+    height: 30px;
+    width: 51%;
+    border: 5px;
+    border-radius: 8px;
+}
+#Start
+{
+    margin-left: 20px;
+    height: 30px;
+    width: 51%;
+    border: 5px;
+    border-radius: 8px;
+}
+#End
+{
+    margin-left: 26px;
+    height: 30px;
+    width: 51%;
+    border: 5px;
+    border-radius: 8px;
+}
+#File
+{
+    margin: 0 0 0 66px;
+    height: 50px;
+    width: 51%;
+    
+}
+.button
+{
+    height: 35px;
+    width: 92px;
+    margin: -5px 0px 0px 150px;
+    border: 5px;
+    border-radius: 22px;
+    
+}
+.button:hover
+{
+    color: azure;
+    background-color: rgb(86, 78, 90);
+}

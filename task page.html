@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task page.css" >
+    <script defer src="js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="Container">
+        <h1 align="center" class="text">Admission Form</h1>
+        <form id="forminfo">
+            <div class="form" >
+                Name:<input type="text"  name="fname" id="name" required>
+            </div>
+
+            <div class="form" >
+                DoB: &nbsp;&nbsp;&nbsp;<input type="date" name="DoB" id="DoB" required>
+            </div>
+            <div class="form" >
+                Start Date:<input type="date" name="SDate" id="Start" required>
+            </div>
+            <div class="form" >
+                End Date:<input type="date" name="EDate" id="End" required>
+            </div>
+            <div class="form" >
+                File:<input type="file" name="Upload" accept="application/pdf" id="File" required>
+            </div>
+            <button class="button"  type="submit" onclick="myFun()" value="submit" >submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
